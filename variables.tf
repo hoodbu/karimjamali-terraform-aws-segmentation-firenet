@@ -1,29 +1,29 @@
-variable "avx_controller_ip" {
-  description = "AVX Controller IP Address"
-  default = ""
-}
-variable "avx_controller_username" {
-  description = "AVX Controller username"
-  default = ""
-}
-variable "avx_controller_password" {
-  description = "AVX Controller password"
-  default = ""
-}
+# variable "avx_controller_ip" {
+#   description = "AVX Controller IP Address"
+#   default = ""
+# }
+# variable "avx_controller_username" {
+#   description = "AVX Controller username"
+#   default = ""
+# }
+# variable "avx_controller_password" {
+#   description = "AVX Controller password"
+#   default = ""
+# }
 
 variable "aws_account_number" {
   default = ""
 }
 
-variable "aws_acess_key" {
-  description = "AWS Access Key"
-  default = ""
-}
+# variable "aws_acess_key" {
+#   description = "AWS Access Key"
+#   default = ""
+# }
 
-variable "aws_secret_key" {
-  description = "AWS Secret Key"
-  default = ""
-}
+# variable "aws_secret_key" {
+#   description = "AWS Secret Key"
+#   default = ""
+# }
 
 variable "home_ip" {
   default = ""
@@ -32,11 +32,11 @@ variable "home_ip" {
 
 variable "aws_region_1" {
   default = "us-east-1"
-}  
+}
 
 variable "aws_region_2" {
   default = "us-east-2"
-}  
+}
 
 
 
